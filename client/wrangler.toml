@@ -1,0 +1,9 @@
+name = "flowsupply"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+
+# Build command: pnpm run build
+# Deploy:        wrangler pages deploy dist --project-name flowsupply
+
+# Set VITE_API_URL in the Pages dashboard (Settings → Environment variables)
+# to the deployed Worker URL, e.g. https://flowsupply-api.your-subdomain.workers.dev

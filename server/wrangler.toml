@@ -1,0 +1,12 @@
+name = "flowsupply-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+# Secrets — set via CLI before first deploy:
+#   wrangler secret put SUPABASE_URL
+#   wrangler secret put SUPABASE_SERVICE_KEY
+#   wrangler secret put JWT_SECRET
+#   wrangler secret put ALLOWED_ORIGIN   (e.g. https://flowsupply.pages.dev)
+
+[vars]
+# Non-secret public vars can go here. Secrets must use `wrangler secret put`.
