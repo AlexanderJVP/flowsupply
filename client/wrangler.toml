@@ -1,9 +1,11 @@
 name = "flowsupply"
+main = "src/worker.ts"
 compatibility_date = "2026-05-04"
 
 [assets]
 directory = "./dist"
 not_found_handling = "single-page-application"
+binding = "ASSETS"
 
-# Set VITE_API_URL in the Worker dashboard (Settings → Variables and Secrets)
-# to the deployed API Worker URL, e.g. https://flowsupply-api.your-subdomain.workers.dev
+[vars]
+API_WORKER_URL = "https://flowsupply-api.alexander-van-puyenbroeck15.workers.dev"
