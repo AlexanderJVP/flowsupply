@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"pnpm --filter server run dev\" \"pnpm --filter client run dev\"",
-    "build": "pnpm --filter client run build"
+    "build": "pnpm --filter client run build",
+    "deploy": "pnpm --filter client run deploy"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

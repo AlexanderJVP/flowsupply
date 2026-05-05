@@ -54,6 +54,9 @@ importers:
       vite:
         specifier: ^6.0.5
         version: 6.4.1(@types/node@22.19.15)(jiti@1.21.7)(tsx@4.21.0)
+      wrangler:
+        specifier: ^3.91.0
+        version: 3.114.17
 
   server:
     dependencies:

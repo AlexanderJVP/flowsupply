@@ -24,7 +24,10 @@
       "Bash(Format-Table -AutoSize)",
       "Bash(Remove-Item \"m:/Documenten/Other/coding/flowSupply/build_prompt.md\" -Force)",
       "Bash(Remove-Item \"m:/Documenten/Other/coding/flowSupply/docker-compose.yml\" -Force)",
-      "Bash(pnpm --filter client run build)"
+      "Bash(pnpm --filter client run build)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm --filter client exec wrangler --version)",
+      "Bash(pnpm --filter client run deploy --help)"
     ]
   }
 }
