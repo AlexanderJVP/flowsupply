@@ -27,7 +27,10 @@
       "Bash(pnpm --filter client run build)",
       "Bash(pnpm install *)",
       "Bash(pnpm --filter client exec wrangler --version)",
-      "Bash(pnpm --filter client run deploy --help)"
+      "Bash(pnpm --filter client run deploy --help)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
