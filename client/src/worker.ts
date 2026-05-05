@@ -1,5 +1,5 @@
 interface Env {
-  ASSETS: Fetcher
+  ASSETS: { fetch(request: Request): Promise<Response> }
   API_WORKER_URL: string
 }
 
