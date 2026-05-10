@@ -12,7 +12,7 @@ import type { AppEnv } from './types'
 const app = new Hono<AppEnv>()
 
 app.use('*', (c, next) =>
-  cors({ origin: c.env.ALLOWED_ORIGIN || '*', credentials: true })(c, next),
+  cors({ origin: c.env.ALLOWED_ORIGIN || '*' })(c, next),
 )
 
 app.route('/api/auth', authRouter)
